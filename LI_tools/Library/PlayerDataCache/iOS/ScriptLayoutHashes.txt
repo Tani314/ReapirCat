@@ -3,6 +3,7 @@ PlayerPath?
 /Users/isabellee/Desktop/nekkkko
 SceneListBegin?
 Assets/Scenes/ARExperience.unity
+Assets/Models/CatWalkAnimation.unity
 Assets/Scenes/AssetBundleReference.unity
 Assets/Scenes/VRExperience.unity
 SceneListEnd?
@@ -133,6 +134,7 @@ dc1bf7169b005112f7a4da5a6b15f0c4 Unity.XR.ARKit.dll:UnityEngine.XR.ARKit.ARKitRe
 290afc8da8e459e0b8dc7444bfaf5e35 Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARPointCloud
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARFaceMeshVisualizer
+ff60c4f0a5e5858b993aa14310bf733f Assembly-CSharp.dll:.ARController
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 1dcb82730d983b77cec736c6ef19f814 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -179,6 +181,7 @@ ee0cef6caaac8ae485bfa82f000f0f7b Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 5fc094978ce3e3591a7500ed380d854a Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 e1c35cdce946e9da77fe80a39c261608 Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARSessionOrigin
+0d23e351ab1fa4f1dae311605e6cf3d8 Assembly-CSharp.dll:.CatController
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARPointCloudMeshVisualizer
 290afc8da8e459e0b8dc7444bfaf5e35 Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARTrackedObject
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
@@ -189,4 +192,3 @@ d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 01473135d671a71d740e507b04eb93da Unity.XR.ARSubsystems.dll:UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
 290afc8da8e459e0b8dc7444bfaf5e35 Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.AREnvironmentProbe
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
-a25b2cdcbb5d72e046b7b95e7b811fa6 Assembly-CSharp.dll:.ARController
