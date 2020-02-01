@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ARExperience.unity
     guid: fec4251706e764943ab4c883c2feb7e4
   - enabled: 1
+    path: Assets/Models/CatWalkAnimation.unity
+    guid: 439417556bd704768ba401724591afd8
+  - enabled: 1
     path: Assets/Scenes/AssetBundleReference.unity
     guid: 9c6e6c9dac59dc54395c1185b0dce6b2
   - enabled: 0

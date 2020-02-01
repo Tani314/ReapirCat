@@ -11,6 +11,7 @@ public class ARController : MonoBehaviour
     private Pose placementPose;
     private bool placementPoseValid = false;
     public GameObject placementIndicator;
+    public bool placed = false;
     void Start()
     {
         raycastManager = FindObjectOfType<ARRaycastManager>();
@@ -24,10 +25,12 @@ public class ARController : MonoBehaviour
 
 	private void UpdatePlacementIndicator()
 	{
+        if (placed) return;
         placementIndicator.SetActive(placementPoseValid);
         if (placementPoseValid)
         {
             placementIndicator.transform.SetPositionAndRotation(placementPose.position, placementPose.rotation);
+            placed = true;
         }
 	}
 
