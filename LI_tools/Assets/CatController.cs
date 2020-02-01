@@ -33,7 +33,7 @@ public class CatController : MonoBehaviour
 
     void Update()
     {
-        if (currentThing == null) 
+        if (currentThing == null)
         {
             SelectNextObjectToBreak();
         }
