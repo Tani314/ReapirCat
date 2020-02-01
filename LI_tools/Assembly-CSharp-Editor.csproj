@@ -58,46 +58,46 @@
      <Compile Include="Assets\Scripts\Editor\ExperienceTagging.cs" />
      <Compile Include="Assets\Scripts\Editor\ScriptableObjectUtility.cs" />
  <Reference Include="Unity.XR.ARKit">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Library/ScriptAssemblies/Unity.XR.ARKit.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Library/ScriptAssemblies/Unity.XR.ARKit.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Subsystem.Registration">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARSubsystems">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARSubsystems.Editor">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARCore">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARFoundation.Editor">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARFoundation">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARCore.Editor">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARKit.Editor">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -337,34 +337,34 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTween43">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Assets/Plugins/Demigiant/DOTween/DOTween43.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Assets/Plugins/Demigiant/DOTween/DOTween43.dll</HintPath>
  </Reference>
  <Reference Include="DOTween50">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Assets/Plugins/Demigiant/DOTween/DOTween50.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Assets/Plugins/Demigiant/DOTween/DOTween50.dll</HintPath>
  </Reference>
  <Reference Include="DOTween46">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Assets/Plugins/Demigiant/DOTween/DOTween46.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Assets/Plugins/Demigiant/DOTween/DOTween46.dll</HintPath>
  </Reference>
  <Reference Include="DOTweenEditor">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
- <HintPath>/Users/isabellee/Downloads/LI_tools/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+ <HintPath>/Users/isabellee/Documents/GitHub/Repair-Cat/LI_tools/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
