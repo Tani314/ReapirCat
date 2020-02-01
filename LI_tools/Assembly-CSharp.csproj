@@ -53,35 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Audio\AudioController.cs" />
-     <Compile Include="Assets\Scripts\Audio\AudioData.cs" />
-     <Compile Include="Assets\Scripts\Audio\AudioEventController.cs" />
-     <Compile Include="Assets\Scripts\Experience\AnimatorUIController.cs" />
-     <Compile Include="Assets\Scripts\Experience\ARExperienceController.cs" />
-     <Compile Include="Assets\Scripts\Experience\BookData.cs" />
-     <Compile Include="Assets\Scripts\Experience\ColliderReceiverController.cs" />
-     <Compile Include="Assets\Scripts\Experience\ElementController.cs" />
-     <Compile Include="Assets\Scripts\Experience\ExperienceData.cs" />
-     <Compile Include="Assets\Scripts\Experience\ExperienceElement.cs" />
-     <Compile Include="Assets\Scripts\Experience\ExperienceEndEventController.cs" />
-     <Compile Include="Assets\Scripts\Experience\ExperienceSettingsController.cs" />
-     <Compile Include="Assets\Scripts\Experience\ExperienceSkyboxEventController.cs" />
-     <Compile Include="Assets\Scripts\Experience\MaterialHighlightEnlargeHelper.cs" />
-     <Compile Include="Assets\Scripts\Experience\MaterialHighlightHelper.cs" />
-     <Compile Include="Assets\Scripts\Experience\RaycastCursor.cs" />
-     <Compile Include="Assets\Scripts\Experience\SetPoisActiveEventController.cs" />
-     <Compile Include="Assets\Scripts\Experience\SettingsControllerManager.cs" />
-     <Compile Include="Assets\Scripts\Experience\VRCameraController.cs" />
-     <Compile Include="Assets\Scripts\Experience\VRExperienceController.cs" />
-     <Compile Include="Assets\Scripts\Experience\VRMenuController.cs" />
-     <Compile Include="Assets\Scripts\Experience\VRMenuLaunchController.cs" />
-     <Compile Include="Assets\Scripts\Poi\PoiController.cs" />
-     <Compile Include="Assets\Scripts\Poi\PoiData.cs" />
-     <Compile Include="Assets\Scripts\Poi\PoiElement.cs" />
-     <Compile Include="Assets\Scripts\Poi\PoiEventBroadcaster.cs" />
-     <Compile Include="Assets\Scripts\Poi\PoiEventListener.cs" />
-     <Compile Include="Assets\Scripts\Poi\PoiTrigger.cs" />
-     <Compile Include="Assets\Scripts\Util\TransformEx.cs" />
+     <Compile Include="Assets\Scripts\ARController.cs" />
      <None Include="Assets\Shaders\SkyboxBlended.shader" />
      <None Include="Assets\link.xml" />
      <None Include="Assets\Shaders\Default_OverlayNoZOutline.shader" />
