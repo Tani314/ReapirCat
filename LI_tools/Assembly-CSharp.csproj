@@ -58,8 +58,17 @@
      <Compile Include="Assets\CatController.cs" />
      <Compile Include="Assets\GyroCamera.cs" />
      <Compile Include="Assets\MuseumItemController.cs" />
+     <Compile Include="Assets\OutlineEffect\Demo\MaterialSwitcher.cs" />
+     <Compile Include="Assets\OutlineEffect\Demo\OutlineAnimation.cs" />
+     <Compile Include="Assets\OutlineEffect\Demo\Rotate.cs" />
+     <Compile Include="Assets\OutlineEffect\Demo\Toggle.cs" />
+     <Compile Include="Assets\OutlineEffect\LinkedSet.cs" />
+     <Compile Include="Assets\OutlineEffect\Outline.cs" />
+     <Compile Include="Assets\OutlineEffect\OutlineEffect.cs" />
      <Compile Include="Assets\Scripts\ARController.cs" />
      <None Include="Assets\Shaders\SkyboxBlended.shader" />
+     <None Include="Assets\OutlineEffect\Resources\OutlineShader.shader" />
+     <None Include="Assets\OutlineEffect\Resources\OutlineBufferShader.shader" />
      <None Include="Assets\link.xml" />
      <None Include="Assets\Shaders\Default_OverlayNoZOutline.shader" />
      <None Include="Assets\Shaders\Default_OverlayNoZTest.shader" />
