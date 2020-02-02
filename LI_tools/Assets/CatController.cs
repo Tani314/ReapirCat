@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using System;
 
 public class CatController : MonoBehaviour
@@ -33,6 +34,16 @@ public class CatController : MonoBehaviour
 
     void Update()
     {
+        bool stillThings = false;
+        foreach (var museumItem in thingsToBreak)
+        {
+            if (!museumItem.broken) stillThings = true;
+        }
+        if (!stillThings)
+        {
+            SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
+            return;
+        }
         Camera.main.transform.Rotate (-Input.gyro.rotationRateUnbiased.x, -Input.gyro.rotationRateUnbiased.y, -Input.gyro.rotationRateUnbiased.z);
         if (currentThing == null)
         {

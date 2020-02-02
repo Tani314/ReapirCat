@@ -12325,7 +12325,7 @@ MonoBehaviour:
   walkingTowardsObject: 0
   currentThing: {fileID: 0}
   cat: {fileID: 2534083768331603973}
-  speed: 5
+  speed: 2.5
   thingsToBreak:
   - {fileID: 1407731279}
   - {fileID: 1977358346}

@@ -37,8 +37,9 @@ public class MuseumItemController : MonoBehaviour
                 Debug.Log(hit.transform.name);
                 if (hit.collider != null) {
                     GameObject touchedObject = hit.transform.gameObject;
-                    if (touchedObject == this.gameObject)
+                    if (touchedObject == this.gameObject && broken)
                     {
+                        broken = false;
                         anim.Play("Fix", 0, 0f);
                         StartCoroutine(WaitToActivate());
                     }
@@ -54,7 +55,9 @@ public class MuseumItemController : MonoBehaviour
         brokenObject.SetActive(false);
         anim.SetInteger("Fix", 0);
     }
+
     public void BreakIt() {
+        broken = true;
         completeObject.SetActive(false);
         brokenObject.SetActive(true);
         audioSource.Play();
