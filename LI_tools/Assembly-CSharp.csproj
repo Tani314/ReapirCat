@@ -66,6 +66,8 @@
      <Compile Include="Assets\OutlineEffect\Outline.cs" />
      <Compile Include="Assets\OutlineEffect\OutlineEffect.cs" />
      <Compile Include="Assets\Scripts\ARController.cs" />
+     <Compile Include="Assets\StartController.cs" />
+     <Compile Include="Assets\TouchComponent.cs" />
      <None Include="Assets\Shaders\SkyboxBlended.shader" />
      <None Include="Assets\OutlineEffect\Resources\OutlineShader.shader" />
      <None Include="Assets\OutlineEffect\Resources\OutlineBufferShader.shader" />

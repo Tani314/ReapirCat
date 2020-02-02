@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VRExperience.unity
     guid: b597c48cbc9e50f4da5f2d8c48c6260f
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: c67e208f5ce7c4a618fad76bf475022f
+  - enabled: 1
+    path: Assets/Scenes/TestCat.unity
+    guid: 8b89d96c34594432d985665059e2e5d9
   m_configObjects: {}
