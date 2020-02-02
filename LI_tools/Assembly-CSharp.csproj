@@ -54,6 +54,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\CatController.cs" />
+     <Compile Include="Assets\GyroCamera.cs" />
+     <Compile Include="Assets\MuseumItemController.cs" />
      <Compile Include="Assets\Scripts\ARController.cs" />
      <None Include="Assets\Shaders\SkyboxBlended.shader" />
      <None Include="Assets\link.xml" />
