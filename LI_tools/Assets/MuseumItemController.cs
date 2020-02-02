@@ -40,12 +40,20 @@ public class MuseumItemController : MonoBehaviour
                     if (touchedObject == this.gameObject)
                     {
                         anim.Play("Fix", 0, 0f);
+                        StartCoroutine(WaitToActivate());
                     }
                 }
             }
          }
     }
 
+    IEnumerator WaitToActivate()
+    {
+        yield return new WaitForSeconds(2.0f);
+        completeObject.SetActive(true);
+        brokenObject.SetActive(false);
+        anim.SetInteger("Fix", 0);
+    }
     public void BreakIt() {
         completeObject.SetActive(false);
         brokenObject.SetActive(true);
