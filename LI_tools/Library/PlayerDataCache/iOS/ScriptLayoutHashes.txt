@@ -1,11 +1,14 @@
 iOS
 PlayerPath?
-/Users/isabellee/Desktop/nekkkko
+/Users/isabellee/Desktop/nekkkko3
 SceneListBegin?
+Assets/Scenes/Start.unity
+Assets/Scenes/TestCat.unity
 Assets/Scenes/ARExperience.unity
 Assets/Models/CatWalkAnimation.unity
 Assets/Scenes/AssetBundleReference.unity
 Assets/Scenes/VRExperience.unity
+Assets/Scenes/GameOver.unity
 SceneListEnd?
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 01aa15e337e3a9c62f15153dfac6d589 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
@@ -21,6 +24,8 @@ e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 201e3fde670b00545944bb3db215c80a UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+9c7c87712e298256d276eb96e02a57b1 Unity.ProBuilder.dll:UnityEngine.ProBuilder.PreferenceDictionary
+2d37f4c670895e23a6a2e57efe92ed33 Assembly-CSharp.dll:cakeslice.OutlineEffect
 e7a73f5f78ba6445195ec23b74a1ce2d Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -55,7 +60,9 @@ fc108ce7d98c40ac0907e8ca7f500c76 UnityEngine.UI.dll:UnityEngine.UI.Text
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 b31ef1c110c5a7ed74ad67be3ae59038 Unity.TextMeshPro.dll:TMPro.TMP_InputField
+f6633ace6e530c0000f2ac6da4269c52 Unity.ProBuilder.dll:UnityEngine.ProBuilder.PolyShape
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARRaycastManager
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:cakeslice.OutlineAnimation
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 5fc094978ce3e3591a7500ed380d854a UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -88,7 +95,9 @@ fc108ce7d98c40ac0907e8ca7f500c76 UnityEngine.UI.dll:UnityEngine.UI.Text
 0fd6822f6177297bd0eb4d83cc7a9030 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.GyroCamera
 7f5c55cb7b3151ce240452eb85500d32 Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARPlaneManager
+36f96c190e244321e128769d9c5120ac Unity.ProBuilder.dll:UnityEngine.ProBuilder.ProBuilderMesh
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 06f0fef534ca4c1d6064fd77a26bf722 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 780e8f682b3221346c034a6712a0fd25 UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -118,6 +127,8 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 9b895dcabbc1faf095c000c32d471fd0 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+32f6d1d5a09e5c94c633a32edd3e6836 Unity.ProBuilder.dll:UnityEngine.ProBuilder.BezierShape
+d4c7f745fedd96023305b78e60b93a07 Assembly-CSharp.dll:cakeslice.Outline
 e8733e39efa851172df1c9eaef062265 Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARPlane
 303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
 7fb9de8dcf73854b6b328eca1f7a6e6d Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsTracker
@@ -125,13 +136,19 @@ e8733e39efa851172df1c9eaef062265 Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoun
 b8a5e8091ab0b8861d2add371082c5e0 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 290afc8da8e459e0b8dc7444bfaf5e35 Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARFace
 8f1e591808db709cb76cb7d85cb9a8d7 Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.AREnvironmentProbeManager
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.EndGame
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:cakeslice.Rotate
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.TouchComponent
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer
 ef705ae677d649d6c0ff3b4060963abd Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARTrackedObjectManager
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
+e9389e944eb81a3a9df56fcdb09ce6a9 Unity.ProBuilder.dll:UnityEngine.ProBuilder.TriggerBehaviour
+e9389e944eb81a3a9df56fcdb09ce6a9 Unity.ProBuilder.dll:UnityEngine.ProBuilder.ColliderBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 dc1bf7169b005112f7a4da5a6b15f0c4 Unity.XR.ARKit.dll:UnityEngine.XR.ARKit.ARKitReferenceObjectEntry
 290afc8da8e459e0b8dc7444bfaf5e35 Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARPointCloud
+71bb6a6b6c8f052f948db64c7dd3ca4f Unity.ProGrids.dll:UnityEngine.ProGrids.IgnoreSnap
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARFaceMeshVisualizer
 ff60c4f0a5e5858b993aa14310bf733f Assembly-CSharp.dll:.ARController
@@ -149,6 +166,7 @@ e0ee4b3d4e27318934cc940a969d3d96 UnityEngine.Networking.dll:UnityEngine.Networki
 ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 9b895dcabbc1faf095c000c32d471fd0 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+d6a8e9bec3160a152b9b2710593d3caa Unity.ProBuilder.dll:UnityEngine.ProBuilder.ColorPalette
 982acebdb29318e47aa2d3c2cb7e1539 Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARTrackedImageManager
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARPointCloudParticleVisualizer
 0c5108545fb925730d4d5887ebcdd20c Unity.XR.ARSubsystems.dll:UnityEngine.XR.ARSubsystems.XRReferenceObjectLibrary
@@ -156,6 +174,7 @@ d8967d9f3786748a827ab827c3a3f814 Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoun
 35a9693c388776aaf487636491a20f11 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 e1300922cc039f41ab46a47f4cb05898 Unity.TextMeshPro.dll:TMPro.TMP_Settings
 946b2bc373a65352ee010e9217def3f1 Assembly-CSharp-firstpass.dll:.Basics
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.StartController
 88cc9df3c6fc697bfbeacd24c0d6f2d7 UnityEngine.TestRunner.dll:UnityEngine.TestTools.BeforeAfterTestCommandState
 88cc9df3c6fc697bfbeacd24c0d6f2d7 UnityEngine.TestRunner.dll:UnityEngine.TestTools.EnumerableSetUpTearDownCommandState
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
@@ -167,6 +186,7 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 fcc7ae5ff1b0c9cad5865d5b6cee016a Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARReferencePointManager
+301f4da7cc3b301c161d089f9d22efed Unity.ProBuilder.dll:UnityEngine.ProBuilder.Entity
 290afc8da8e459e0b8dc7444bfaf5e35 Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARTrackedImage
 931f489e44eadf809e9310429c99dde5 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioListenerExtension
 fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
@@ -174,14 +194,18 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 704dcd31abc789439bc3f3cd10b58c2b DOTween.dll:DG.Tweening.Core.DOTweenComponent
 29d99aeeb06bd38aca2d0a3b8e75839c DOTween.dll:DG.Tweening.Core.DOTweenSettings
+cdc504759d64aae7eed4463cbaec87db Assembly-CSharp.dll:.Readme
 ca2a58dd7363525cbd2f65b2a150b41b Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARCameraManager
+6b64fad0b02c12c41cffc8e93aa1a0f8 Assembly-CSharp.dll:.MuseumItemController
+66fa1d1447b9cd3593baff1859160a98 Assembly-CSharp.dll:cakeslice.MaterialSwitcher
 d0976f085ee327327a35839ca3cb80f1 Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARFaceManager
 ee0cef6caaac8ae485bfa82f000f0f7b Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 16dacd04869a876ea4bea0d1d2e77e34 Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARPointCloudManager
 5fc094978ce3e3591a7500ed380d854a Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:cakeslice.Toggle
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 e1c35cdce946e9da77fe80a39c261608 Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARSessionOrigin
-0d23e351ab1fa4f1dae311605e6cf3d8 Assembly-CSharp.dll:.CatController
+0fce1840654b7705a1b72d1e15b6b1c3 Assembly-CSharp.dll:.CatController
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARPointCloudMeshVisualizer
 290afc8da8e459e0b8dc7444bfaf5e35 Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARTrackedObject
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
@@ -189,6 +213,7 @@ d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 5372ed2ce39229b1ac910757999a8be2 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 20d20168517d1c0e098918311aa95bbb Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.ARCameraBackground
+d88bd6c5003b71f6ddbae3cd2189394d Assembly-CSharp.dll:.AudioController
 01473135d671a71d740e507b04eb93da Unity.XR.ARSubsystems.dll:UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
 290afc8da8e459e0b8dc7444bfaf5e35 Unity.XR.ARFoundation.dll:UnityEngine.XR.ARFoundation.AREnvironmentProbe
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
